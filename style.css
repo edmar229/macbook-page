@@ -65,6 +65,15 @@ button {
   margin-top: 1.8rem;
 }
 
-@media (min-width: 768px) {
-  
+@media (min-width: 1120px) {
+  main {
+    flex-direction: row;
+    max-width: fit-content;
+    gap: 16rem;
+  }
+
+  main > div {
+    flex: 1;
+    max-width: 50rem;
+  }
 }
